@@ -20,7 +20,7 @@ public class PlayerLife : MonoBehaviour
     }
 
 
-
+    // single comment line
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Death"))
